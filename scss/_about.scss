@@ -1,0 +1,36 @@
+//About
+.about {
+  padding: 0 10% 100px 10%;
+  display: flex;
+	flex-direction: row;
+	@media screen and (max-width: 800px){
+		flex-direction: column;
+	}
+
+}
+.about__img {
+	display: flex;
+	flex: 1;
+	@extend %img-center;
+  width: 603px;
+	height: 401px;
+	margin: auto;
+}
+.about-content {
+	text-align: left;
+	flex: 1;
+  display: flex;
+  flex-direction: column;
+	justify-content: space-between;
+	margin-right: 15px;
+	
+}
+.about-content__title {
+	@include title(30px);
+}
+.about-content__text {
+  @extend %text;
+}
+.about-content__btn {
+  @include btn(12px, 125px, 34px);
+}

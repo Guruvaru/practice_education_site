@@ -1,0 +1,112 @@
+.footer {
+  padding: 20px 10%;
+  background-color: #000;
+  text-align: left;
+  margin-top: 100px;
+  color: #fff;
+}
+.footer__top {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+.footer__singup {
+  @include title(18px);
+  max-width: 186px;
+  color: #fff;
+}
+.footer__email {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__input {
+  color: #fff;
+  padding-left: 10px;
+  width: 370px;
+  height: 45px;
+  border: 1px solid #fff;
+  opacity: 0.75;
+  margin: 5px;
+  background-color: #000;
+  @media (max-width: 420px) {
+    width: 270px;
+  }
+}
+.footer__btn {
+  @include btn(12px, 143px, 50px);
+  color: #212121;
+  background-color: #fff;
+  margin: 5px;
+}
+.footer__icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  i {
+    margin-left: 20px;
+  }
+}
+.footer__icon {
+  color: #ffffff;
+  font-family: "Font Awesome";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.footer__center {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer__info,
+.footer__links {
+  margin: 5px;
+  max-width: 270px;
+  color: #e6e6e6;
+  font-family: "PT Serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  b {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.footer__map {
+  width: 557px;
+  height: 292px;
+}
+.footer__bottom {
+  margin-top: 40px;
+  border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+}
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  font-family: "PT Serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer__copyright {
+  @extend %text;
+  color: #ffffff;
+  text-transform: uppercase;
+}

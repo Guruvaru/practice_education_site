@@ -1,0 +1,23 @@
+.nav {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+.nav__item {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3c6afc;
+	display: block;
+	margin:5px;
+}
+.nav__logo{
+	max-width: 195px;
+	max-height: 49px;
+}

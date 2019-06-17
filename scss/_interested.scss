@@ -1,0 +1,40 @@
+//Interested
+.interested {
+  background: linear-gradient(150deg, #f7f7f7, #fff);
+  padding: 100px 10%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.interested__title {
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.interested__grid {
+  display: flex;
+	justify-content: space-around;
+  flex-wrap: wrap;
+}
+.interested__item {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 375px;
+	max-height: 274px;
+	min-width: 170px;
+	min-height: 70px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+.interested__icon {
+  font-size: 77px;
+  color: #333333;
+}
+.interested__name {
+  color: $text-color;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.11px;
+}

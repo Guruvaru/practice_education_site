@@ -1,0 +1,39 @@
+@mixin btn($fs, $w, $h) {
+  width: $w;
+  height: $h;
+  background-color: #1a56d6;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: $fs;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+@mixin title($fs) {
+  color: #333333;
+  font-family: "PT Serif";
+  font-size: $fs;
+  font-weight: 700;
+  @media (max-width: 800px) {
+    font-size: $fs * 0.7;
+  }
+}
+%text {
+  color: #666666;
+  font-family: "PT Serif";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  @media (max-width: 800px) {
+    font-size: 13px;
+  }
+}
+%img-center {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

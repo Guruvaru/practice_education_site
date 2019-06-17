@@ -1,0 +1,54 @@
+// Achievements block
+.achievements {
+  padding: 100px 10%;
+  text-align: left;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.achievements__title {
+  @include title(30px);
+}
+.achievements__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.achievements__item {
+  display: flex;
+	align-items: center;
+	margin: 15px auto;
+}
+.achievements__icon {
+  color: #1a56d6;
+  font-size: 65px;
+  margin-right: 25px;
+}
+.achievements__number {
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.achievements__name {
+  color: $text-color;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+.achievements__line {
+  max-width: 375px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #555555;
+  padding: 0;
+  margin: 47px 0 47px 0;
+}
+.achievements__text {
+ @extend %text;
+ max-width: 456px;
+}
+.achievements__video {
+  border: 0;
+}
+
+// Classes block
